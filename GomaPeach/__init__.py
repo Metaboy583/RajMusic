@@ -64,8 +64,8 @@ SUNAME = config.SUPPORT_CHAT.split("me/")[1]
 
 async def fallen_startup():
     os.system("clear")
-    LOGGER.info(
-        "\n\n\u250f\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2513\n\u2523\x20\x20\x20\x20\x20\x47\x6f\x6d\x61\x20\x50\x65\x61\x63\x68\x20\x42\x6f\x74\x20\u252b\n\u2523\x20\x20\x20\x20\x20\x42\x6f\x74\x20\x53\x74\x61\x72\x74\x69\x6e\x67\x2e\x2e\x2e\x20\u252b\n\u2517\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u251b\n```"    )
+    LOGGER.info("\n\n\u2665\u250f\u2501\u2501\u2501\u2501\u2665\u2501\u2501\u2665\u2501\u2501\u2501\u2501\u2501\u2501\u2665\u2513\n\u2523\u2665\x20\x47\x6f\x6d\x61\x20\x50\x65\x61\x63\x68\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\u2665\n\u2517\u2501\u2501\u2501\u2501\u2665\u2501\u2501\u2665\u2501\u2501\u2501\u2501\u2501\u2501\u2665\u251b"
+    )
     global BOT_ID, BOT_NAME, BOT_USERNAME, BOT_MENTION, fallendb
     global ASS_ID, ASS_NAME, ASS_USERNAME, ASS_MENTION, SUDOERS
 
