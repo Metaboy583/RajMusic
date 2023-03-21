@@ -24,8 +24,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from GomaPeach import SUDOERS, app
-from GomaPeach.Helpers.active import get_active_chats
-from GomaPeach.Helpers.inline import close_key
+from GomaPeach.Goma.active import get_active_chats
+from GomaPeach.Goma.inline import close_key
 
 
 @app.on_message(filters.command("activevc") & SUDOERS)

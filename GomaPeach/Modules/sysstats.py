@@ -33,7 +33,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 from GomaPeach import BOT_NAME, SUDOERS, app
-from GomaPeach.Modules import ALL_MODULES
+from GomaPeach.Peach import ALL_MODULES
 
 
 @app.on_message(filters.command(["stats", "sysstats"]) & SUDOERS)

@@ -39,14 +39,14 @@ from GomaPeach import (
     app2,
     pytgcalls,
 )
-from GomaPeach.Modules import ALL_MODULES
+from GomaPeach.Peach import ALL_MODULES
 
 
 async def fallen_startup():
-    LOGGER.info("[•] Loading Modules...")
+    LOGGER.info("[•] Loading Peach...")
     for module in ALL_MODULES:
-        importlib.import_module("GomaPeach.Modules." + module)
-    LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
+        importlib.import_module("GomaPeach.Peach." + module)
+    LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Peach.")
 
     LOGGER.info("[•] Refreshing Directories...")
     if "downloads" not in os.listdir():

@@ -25,7 +25,7 @@ from pyrogram.types import Message
 from pytgcalls.types import AudioPiped, HighQualityAudio, Update
 
 from GomaPeach import BOT_ID, BOT_USERNAME, app, app2, fallendb, pytgcalls
-from GomaPeach.Helpers import _clear_, buttons, gen_thumb
+from GomaPeach.Goma import _clear_, buttons, gen_thumb
 
 welcome = 20
 close = 30

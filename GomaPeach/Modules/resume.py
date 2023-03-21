@@ -24,7 +24,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from GomaPeach import app, pytgcalls
-from GomaPeach.Helpers import admin_check, close_key, is_streaming, stream_on
+from GomaPeach.Goma import admin_check, close_key, is_streaming, stream_on
 
 
 @app.on_message(filters.command(["resume"]) & filters.group)

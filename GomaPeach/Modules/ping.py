@@ -29,7 +29,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 import config
 from GomaPeach import BOT_NAME, StartTime, app
-from GomaPeach.Helpers import get_readable_time
+from GomaPeach.Goma import get_readable_time
 
 
 @app.on_message(filters.command("ping"))

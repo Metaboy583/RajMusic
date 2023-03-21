@@ -50,13 +50,13 @@ from GomaPeach import (
     fallendb,
     pytgcalls,
 )
-from GomaPeach.Helpers.active import add_active_chat, is_active_chat, stream_on
-from GomaPeach.Helpers.downloaders import audio_dl
-from GomaPeach.Helpers.errors import DurationLimitError
-from GomaPeach.Helpers.gets import get_file_name, get_url
-from GomaPeach.Helpers.inline import buttons
-from GomaPeach.Helpers.queue import put
-from GomaPeach.Helpers.thumbnails import gen_qthumb, gen_thumb
+from GomaPeach.Goma.active import add_active_chat, is_active_chat, stream_on
+from GomaPeach.Goma.downloaders import audio_dl
+from GomaPeach.Goma.errors import DurationLimitError
+from GomaPeach.Goma.gets import get_file_name, get_url
+from GomaPeach.Goma.inline import buttons
+from GomaPeach.Goma.queue import put
+from GomaPeach.Goma.thumbnails import gen_qthumb, gen_thumb
 
 
 @app.on_message(

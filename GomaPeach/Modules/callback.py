@@ -35,7 +35,7 @@ from GomaPeach import (
     fallendb,
     pytgcalls,
 )
-from GomaPeach.Helpers import (
+from GomaPeach.Goma import (
     _clear_,
     admin_check_cb,
     gen_thumb,
@@ -43,8 +43,8 @@ from GomaPeach.Helpers import (
     stream_off,
     stream_on,
 )
-from GomaPeach.Helpers.dossier import *
-from GomaPeach.Helpers.inline import (
+from GomaPeach.Goma.dossier import *
+from GomaPeach.Goma.inline import (
     buttons,
     close_key,
     help_back,

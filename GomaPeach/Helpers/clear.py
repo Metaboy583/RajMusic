@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 from GomaPeach import fallendb
-from GomaPeach.Helpers import remove_active_chat
+from GomaPeach.Goma import remove_active_chat
 
 
 async def _clear_(chat_id):

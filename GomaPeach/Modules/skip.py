@@ -25,7 +25,7 @@ from pyrogram.types import Message
 from pytgcalls.types import AudioPiped, HighQualityAudio
 
 from GomaPeach import BOT_USERNAME, app, fallendb, pytgcalls
-from GomaPeach.Helpers import _clear_, admin_check, buttons, close_key, gen_thumb
+from GomaPeach.Goma import _clear_, admin_check, buttons, close_key, gen_thumb
 
 
 @app.on_message(filters.command(["skip", "next"]) & filters.group)

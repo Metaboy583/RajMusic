@@ -24,7 +24,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from GomaPeach import app, pytgcalls
-from GomaPeach.Helpers import _clear_, admin_check, close_key
+from GomaPeach.Goma import _clear_, admin_check, close_key
 
 
 @app.on_message(filters.command(["stop", "end"]) & filters.group)

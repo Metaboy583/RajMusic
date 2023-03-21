@@ -5,8 +5,8 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from GomaPeach import BOT_MENTION, BOT_NAME, app
-from GomaPeach.Helpers import gp_buttons, pm_buttons
-from GomaPeach.Helpers.dossier import *
+from GomaPeach.Goma import gp_buttons, pm_buttons
+from GomaPeach.Goma.dossier import *
 
 
 @app.on_message(filters.command(["start"]) & ~filters.forwarded)
