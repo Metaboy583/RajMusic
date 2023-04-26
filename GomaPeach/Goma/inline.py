@@ -15,7 +15,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
-            InlineKeyboardButton(text="join", url="https://t.me/THE_HARSH_CLUB"),
+            InlineKeyboardButton(text="join chat", url="https://t.me/THE_HARSH_CLUB"),
             InlinekeyboardButton(text="ᴄʟᴏsᴇ", " Callback_data="close"), 
         ]
     ]
@@ -51,14 +51,14 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇ ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text=" sᴜᴩᴩᴏʀᴛ ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/TootaShayaR"),
+        InlineKeyboardButton(text="ᴄʜᴀᴛ", url="https://t.me/THE_HARSH_CLUB"),
     ],
     [
         InlineKeyboardButton(
-            text=" sᴏᴜʀᴄᴇ ", url="https://github.com/TheAnonymous2005/GomaPeach"
+            text="𝟸ɴᴅ ʙᴏᴛ", url="https://t.me/RajxMusic_Bot"
         ),
-        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -82,7 +82,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="ᴄʜᴀᴛ", url="https://t.me/THE_HARSH_CLUB")],
     [
         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
