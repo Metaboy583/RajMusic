@@ -58,6 +58,20 @@ from GomaPeach.Goma.inline import buttons
 from GomaPeach.Goma.queue import put
 from GomaPeach.Goma.thumbnails import gen_qthumb, gen_thumb
 
+await message.reply_text(
+            text="ᴇʀʀᴏʀ, ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴜsᴇʀ.\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ.",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠᴇʀɪғʏ",
+                            url=f"https://t.me/{app.username}?start=verify",
+                        )
+                    ]
+                ]
+            ),
+        )
+        return
 
 @app.on_message(
     filters.command(["play", "vplay", "p"])
