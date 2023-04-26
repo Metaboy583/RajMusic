@@ -15,6 +15,8 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
+            InlineKeyboardButton(text="join", "url=config.SUPPORT_CHAT),
+            InlinekeyboardButton(text="ᴄʟᴏsᴇ", " Callback_data="close"), 
         ]
     ]
 )
@@ -27,7 +29,7 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text=" sᴜᴩᴩᴏʀᴛ ", url=config.SUPPORT_CHAT),
