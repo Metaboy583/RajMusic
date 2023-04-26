@@ -15,7 +15,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
-            InlineKeyboardButton(text="join", "url=https://t.me/THE_HARSH_CLUB"),
+            InlineKeyboardButton(text="join", url="https://t.me/THE_HARSH_CLUB"),
             InlinekeyboardButton(text="ᴄʟᴏsᴇ", " Callback_data="close"), 
         ]
     ]
@@ -36,9 +36,9 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="𝟸ɴᴅ ʙᴏᴛ", url="https://github.com/TheAnonymous2005/GomaPeach"
+            text="𝟸ɴᴅ ʙᴏᴛ", url="https://t.me/RajxMusic_Bot"
         ),
-        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
     ],
 ]
 
