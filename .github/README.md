@@ -1,11 +1,11 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 ᴍʏʀᴀ ✘ ᴘᴇᴀᴄʜ 」──
+    ──「 ᴍʏʀᴀ ✘ ᴍᴜsɪᴄ 」──
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/1f070ea3147e2a3ef44e4.jpg">
+  <img src="https://te.legra.ph/file/90904693bbfdf2380e680.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ɢᴏᴍᴀ ✘ ᴘᴇᴀᴄʜ](https://t.me/GomaPeachBot)**_
